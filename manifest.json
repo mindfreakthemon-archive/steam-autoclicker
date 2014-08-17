@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Steam Market Autoclicker",
+	"description": "Provides convenient way to get something from the steam market.",
+	"icons": {
+		"16": "images/icon16.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},
+	"version": "1.1",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"tabs",
+		"http://steamcommunity.com/*"
+	],
+	"page_action": {
+		"default_icon": "images/icon19.png",
+		"default_title": "Steam Market Autoclicker",
+		"default_popup": "popup.html"
+	}
+}
